@@ -1,0 +1,23 @@
+{
+    "name": "gcode/wordpress-base",
+    "description": "WordPress base site with some plugins",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php":"*",
+        "wpackagist-plugin/akismet":"dev-trunk",
+        "wpackagist-plugin/amazon-web-services":"dev-trunk",
+        "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
+        "wpackagist-plugin/captcha":">=3.9",
+        "fancyguy/wordpress-monolog": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    }
+}
