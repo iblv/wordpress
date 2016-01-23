@@ -13,6 +13,7 @@
         "wpackagist-plugin/amazon-web-services":"dev-trunk",
         "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
         "wpackagist-plugin/captcha":"dev-trunk",
+        "wpackagist-plugin/facebook":"dev-trunk",
         "fancyguy/wordpress-monolog": "dev-master"
     },
     "autoload": {
