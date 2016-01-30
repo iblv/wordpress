@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "660d2e97913abc3205da0a0f3e9ccdce",
-    "content-hash": "a01d5034d2bdb808955c14ef2233d014",
+    "hash": "504ff5ca5cc934557ef02fe5b27d9c1d",
+    "content-hash": "9f4913c1ac9187062bdebae694a78867",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -699,6 +699,27 @@
             "time": "2015-12-17 08:01:17"
         },
         {
+            "name": "wpackagist-plugin/church-theme-content",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/church-theme-content/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/church-theme-content.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/church-theme-content/",
+            "time": "2015-11-30 16:27:25"
+        },
+        {
             "name": "wpackagist-plugin/wp-google-analytics",
             "version": "dev-trunk",
             "source": {
@@ -729,6 +750,7 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/captcha": 20,
         "wpackagist-plugin/wp-google-analytics": 20,
+        "wpackagist-plugin/church-theme-content": 20,
         "fancyguy/wordpress-monolog": 20
     },
     "prefer-stable": false,

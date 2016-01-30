@@ -14,6 +14,7 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
         "wpackagist-plugin/captcha":"dev-trunk",
         "wpackagist-plugin/wp-google-analytics":"dev-trunk",
+        "wpackagist-plugin/church-theme-content":"dev-trunk",
         "fancyguy/wordpress-monolog": "dev-master"
     },
     "autoload": {
