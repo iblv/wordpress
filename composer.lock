@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2646b35317902881447b7ca12ec5fbdc",
-    "content-hash": "6d8d68e9f3a1b9ec9f62c75364188d31",
+    "hash": "c51cd3e79cd36544856889f13a15881c",
+    "content-hash": "00869fdc45dceb6e381f4fd0e84ee6c9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.14.1",
+            "version": "3.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a50b9a66486ad2f27b90521c2250c4c06ae8abea"
+                "reference": "2970cb63e7b7b37dd8c07a4fa4e4e18a110ed4e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a50b9a66486ad2f27b90521c2250c4c06ae8abea",
-                "reference": "a50b9a66486ad2f27b90521c2250c4c06ae8abea",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2970cb63e7b7b37dd8c07a4fa4e4e18a110ed4e2",
+                "reference": "2970cb63e7b7b37dd8c07a4fa4e4e18a110ed4e2",
                 "shasum": ""
             },
             "require": {
@@ -84,24 +84,24 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2016-01-22 22:32:38"
+            "time": "2016-01-28 21:33:18"
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -182,7 +182,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "fancyguy/wordpress-monolog",
@@ -699,6 +699,27 @@
             "time": "2015-12-17 08:01:17"
         },
         {
+            "name": "wpackagist-plugin/church-theme-content",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/church-theme-content/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/church-theme-content.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/church-theme-content/",
+            "time": "2015-11-30 16:27:25"
+        },
+        {
             "name": "wpackagist-plugin/facebook",
             "version": "dev-trunk",
             "source": {
@@ -718,6 +739,27 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/facebook/",
             "time": "2014-03-11 23:56:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-google-analytics",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-google-analytics/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-analytics.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-google-analytics/",
+            "time": "2014-06-09 14:00:21"
         }
     ],
     "packages-dev": [],
@@ -729,6 +771,8 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/captcha": 20,
         "wpackagist-plugin/facebook": 20,
+        "wpackagist-plugin/wp-google-analytics": 20,
+        "wpackagist-plugin/church-theme-content": 20,
         "fancyguy/wordpress-monolog": 20
     },
     "prefer-stable": false,
