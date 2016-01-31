@@ -14,6 +14,7 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront":"dev-trunk",
         "wpackagist-plugin/captcha":"dev-trunk",
         "wpackagist-plugin/facebook":"dev-trunk",
+        "wpackagist-plugin/facebook-publish":"dev-trunk",
         "wpackagist-plugin/wp-google-analytics":"dev-trunk",
         "wpackagist-plugin/wp-mail-smtp": "dev-trunk",
         "fancyguy/wordpress-monolog": "dev-master"
