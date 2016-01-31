@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ded4b5ad7310153a110e98a37a96e366",
-    "content-hash": "4f9816c64d960960d34dc74b593c80bc",
+    "hash": "78569762e607f62bdd3e82125157a339",
+    "content-hash": "f20de7d21f65e6a42c8be313fe3b905f",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -762,6 +762,27 @@
             "time": "2014-03-11 23:56:00"
         },
         {
+            "name": "wpackagist-plugin/facebook-publish",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/facebook-publish/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/facebook-publish.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/facebook-publish/",
+            "time": "2015-11-26 18:55:33"
+        },
+        {
             "name": "wpackagist-plugin/post-type-archive-links",
             "version": "dev-trunk",
             "source": {
@@ -854,6 +875,7 @@
         "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
         "wpackagist-plugin/captcha": 20,
         "wpackagist-plugin/facebook": 20,
+        "wpackagist-plugin/facebook-publish": 20,
         "wpackagist-plugin/wp-google-analytics": 20,
         "wpackagist-plugin/wp-mail-smtp": 20,
         "fancyguy/wordpress-monolog": 20,
