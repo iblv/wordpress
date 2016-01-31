@@ -87,6 +87,17 @@ define('WP_DEBUG', false);
 define('AWS_ACCESS_KEY_ID', getenv('AWS_ACCESS_KEY_ID'));
 define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
 
+/*
+* SMTP Config
+*/
+
+define('WPMS_MAIL_FROM', getenv('SMTP_FROM'));
+define('WPMS_SMTP_HOST', getenv('SMTP_HOST')); // The SMTP mail host
+define('WPMS_SMTP_PORT', getenv('SMTP_PORT')); // The SMTP server port number
+define('WPMS_SSL', getenv('SMTP_SSL_TYPE')); // Possible values '', 'ssl', 'tls' - note TLS is not STARTTLS
+define('WPMS_SMTP_USER', getenv('SMTP_USER')); // SMTP authentication username, only used if WPMS_SMTP_AUTH is true
+define('WPMS_SMTP_PASS', getenv('SMTP_PASS')); // SMTP authentication password, only used if WPMS_SMTP_AUTH is true
+
 /* Isto é tudo, pode parar de editar! :) */
 
 /** Caminho absoluto para o diretório WordPress. */

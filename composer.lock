@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4bc8be2e9ebe596d70890ff18aa6d321",
-    "content-hash": "0fc47efbe9a6a0d55741cf2ff6898089",
+    "hash": "ded4b5ad7310153a110e98a37a96e366",
+    "content-hash": "4f9816c64d960960d34dc74b593c80bc",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -804,6 +804,27 @@
             "time": "2014-06-09 14:00:21"
         },
         {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/",
+            "time": "2014-11-19 15:07:20"
+        },
+        {
             "name": "wpackagist-theme/restful",
             "version": "1.1.6",
             "source": {
@@ -834,8 +855,9 @@
         "wpackagist-plugin/captcha": 20,
         "wpackagist-plugin/facebook": 20,
         "wpackagist-plugin/wp-google-analytics": 20,
-        "wpackagist-plugin/church-theme-content": 20,
+        "wpackagist-plugin/wp-mail-smtp": 20,
         "fancyguy/wordpress-monolog": 20,
+        "wpackagist-plugin/church-theme-content": 20,
         "wpackagist-plugin/brightslider": 20,
         "wpackagist-plugin/post-type-archive-links": 20
     },
