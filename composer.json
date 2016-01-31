@@ -16,7 +16,10 @@
         "wpackagist-plugin/facebook":"dev-trunk",
         "wpackagist-plugin/wp-google-analytics":"dev-trunk",
         "wpackagist-plugin/church-theme-content":"dev-trunk",
-        "fancyguy/wordpress-monolog": "dev-master"
+        "fancyguy/wordpress-monolog": "dev-master",
+        "wpackagist-theme/restful": "1.1.6",
+        "wpackagist-plugin/brightslider": "dev-trunk",
+        "wpackagist-plugin/post-type-archive-links": "dev-trunk"
     },
     "autoload": {
         "psr-0": {

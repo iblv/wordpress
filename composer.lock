@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c51cd3e79cd36544856889f13a15881c",
-    "content-hash": "00869fdc45dceb6e381f4fd0e84ee6c9",
+    "hash": "4bc8be2e9ebe596d70890ff18aa6d321",
+    "content-hash": "0fc47efbe9a6a0d55741cf2ff6898089",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -678,6 +678,27 @@
             "time": "2015-11-02 14:26:47"
         },
         {
+            "name": "wpackagist-plugin/brightslider",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/brightslider/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/brightslider.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/brightslider/",
+            "time": "2015-03-19 19:29:25"
+        },
+        {
             "name": "wpackagist-plugin/captcha",
             "version": "dev-trunk",
             "source": {
@@ -741,6 +762,27 @@
             "time": "2014-03-11 23:56:00"
         },
         {
+            "name": "wpackagist-plugin/post-type-archive-links",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/post-type-archive-links/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-type-archive-links.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-type-archive-links/",
+            "time": "2015-04-12 00:58:07"
+        },
+        {
             "name": "wpackagist-plugin/wp-google-analytics",
             "version": "dev-trunk",
             "source": {
@@ -760,6 +802,26 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-google-analytics/",
             "time": "2014-06-09 14:00:21"
+        },
+        {
+            "name": "wpackagist-theme/restful",
+            "version": "1.1.6",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/restful/",
+                "reference": "1.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/restful.1.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/restful/"
         }
     ],
     "packages-dev": [],
@@ -773,7 +835,9 @@
         "wpackagist-plugin/facebook": 20,
         "wpackagist-plugin/wp-google-analytics": 20,
         "wpackagist-plugin/church-theme-content": 20,
-        "fancyguy/wordpress-monolog": 20
+        "fancyguy/wordpress-monolog": 20,
+        "wpackagist-plugin/brightslider": 20,
+        "wpackagist-plugin/post-type-archive-links": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
