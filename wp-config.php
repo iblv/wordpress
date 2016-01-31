@@ -91,6 +91,7 @@ define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
 * SMTP Config
 */
 
+define('WPMS_ON', true);
 define('WPMS_MAIL_FROM', getenv('SMTP_FROM'));
 define('WPMS_SMTP_HOST', getenv('SMTP_HOST')); // The SMTP mail host
 define('WPMS_SMTP_PORT', getenv('SMTP_PORT')); // The SMTP server port number
