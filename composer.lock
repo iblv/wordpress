@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a06e8bd39346e917b62f86e15ee1b24",
-    "content-hash": "acc92f152bb563c55f36e3980521c681",
+    "hash": "ffd81f6d382f6cff60b0e84d54f81149",
+    "content-hash": "e4d2542541252666322e154bf8b2f990",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.18.1",
+            "version": "3.18.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ed9bfdfd19b1e50a13f7ac772fd3d09a00ed8ed1"
+                "reference": "9398db378231fe723583fb8d7a919c1806f02be3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ed9bfdfd19b1e50a13f7ac772fd3d09a00ed8ed1",
-                "reference": "ed9bfdfd19b1e50a13f7ac772fd3d09a00ed8ed1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9398db378231fe723583fb8d7a919c1806f02be3",
+                "reference": "9398db378231fe723583fb8d7a919c1806f02be3",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2016-04-21 21:16:40"
+            "time": "2016-05-26 20:43:24"
         },
         {
             "name": "composer/installers",
@@ -291,16 +291,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8"
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/bb9024c526b22f3fe6ae55a561fd70653d470aa8",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
                 "shasum": ""
             },
             "require": {
@@ -338,7 +338,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-03-08 01:15:46"
+            "time": "2016-05-18 16:56:05"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -620,15 +620,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "dev-trunk",
+            "version": "3.1.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "trunk"
+                "reference": "tags/3.1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -636,20 +636,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/",
-            "time": "2016-01-06 18:45:45"
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "dev-trunk",
+            "version": "1.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "trunk"
+                "reference": "tags/1.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -657,12 +656,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/",
-            "time": "2015-12-19 11:16:00"
+            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "dev-trunk",
+            "version": "0.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
@@ -678,20 +676,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-web-services/",
-            "time": "2015-11-02 14:26:47"
+            "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
             "name": "wpackagist-plugin/brightslider",
-            "version": "dev-trunk",
+            "version": "1.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/brightslider/",
-                "reference": "trunk"
+                "reference": "tags/1.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/brightslider.zip",
+                "url": "https://downloads.wordpress.org/plugin/brightslider.1.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -699,20 +696,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/brightslider/",
-            "time": "2015-03-19 19:29:25"
+            "homepage": "https://wordpress.org/plugins/brightslider/"
         },
         {
             "name": "wpackagist-plugin/captcha",
-            "version": "dev-trunk",
+            "version": "4.1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/captcha/",
-                "reference": "trunk"
+                "reference": "tags/4.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/captcha.zip",
+                "url": "https://downloads.wordpress.org/plugin/captcha.4.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -720,20 +716,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/captcha/",
-            "time": "2015-12-17 08:01:17"
+            "homepage": "https://wordpress.org/plugins/captcha/"
         },
         {
             "name": "wpackagist-plugin/church-theme-content",
-            "version": "dev-trunk",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/church-theme-content/",
-                "reference": "trunk"
+                "reference": "tags/1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/church-theme-content.zip",
+                "url": "https://downloads.wordpress.org/plugin/church-theme-content.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -741,20 +736,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/church-theme-content/",
-            "time": "2015-11-30 16:27:25"
+            "homepage": "https://wordpress.org/plugins/church-theme-content/"
         },
         {
             "name": "wpackagist-plugin/facebook",
-            "version": "dev-trunk",
+            "version": "1.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/facebook/",
-                "reference": "trunk"
+                "reference": "tags/1.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/facebook.zip",
+                "url": "https://downloads.wordpress.org/plugin/facebook.1.5.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -762,20 +756,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/facebook/",
-            "time": "2014-03-11 23:56:00"
+            "homepage": "https://wordpress.org/plugins/facebook/"
         },
         {
             "name": "wpackagist-plugin/facebook-publish",
-            "version": "dev-trunk",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/facebook-publish/",
-                "reference": "trunk"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/facebook-publish.zip",
+                "url": "https://downloads.wordpress.org/plugin/facebook-publish.1.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -783,40 +776,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/facebook-publish/",
-            "time": "2015-11-26 18:55:33"
-        },
-        {
-            "name": "wpackagist-plugin/json-api",
-            "version": "1.1.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/json-api/",
-                "reference": "tags/1.1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-api.1.1.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/json-api/"
+            "homepage": "https://wordpress.org/plugins/facebook-publish/"
         },
         {
             "name": "wpackagist-plugin/post-type-archive-links",
-            "version": "dev-trunk",
+            "version": "1.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-type-archive-links/",
-                "reference": "trunk"
+                "reference": "tags/1.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-type-archive-links.zip",
+                "url": "https://downloads.wordpress.org/plugin/post-type-archive-links.1.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -824,20 +796,39 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/post-type-archive-links/",
-            "time": "2015-04-12 00:58:07"
+            "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
+        },
+        {
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api/"
         },
         {
             "name": "wpackagist-plugin/wp-google-analytics",
-            "version": "dev-trunk",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-analytics/",
-                "reference": "trunk"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-analytics.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-analytics.1.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -845,20 +836,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-google-analytics/",
-            "time": "2014-06-09 14:00:21"
+            "homepage": "https://wordpress.org/plugins/wp-google-analytics/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "dev-trunk",
+            "version": "0.9.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "trunk"
+                "reference": "tags/0.9.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -866,8 +856,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/",
-            "time": "2014-11-19 15:07:20"
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "wpackagist-theme/restful",
@@ -894,18 +883,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/akismet": 20,
-        "wpackagist-plugin/amazon-web-services": 20,
-        "wpackagist-plugin/amazon-s3-and-cloudfront": 20,
-        "wpackagist-plugin/captcha": 20,
-        "wpackagist-plugin/facebook": 20,
-        "wpackagist-plugin/facebook-publish": 20,
-        "wpackagist-plugin/wp-google-analytics": 20,
-        "wpackagist-plugin/wp-mail-smtp": 20,
         "fancyguy/wordpress-monolog": 20,
-        "wpackagist-plugin/church-theme-content": 20,
-        "wpackagist-plugin/brightslider": 20,
-        "wpackagist-plugin/post-type-archive-links": 20
+        "wpackagist-plugin/rest-api": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
